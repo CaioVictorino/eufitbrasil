@@ -1,0 +1,66 @@
+body, html{
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+aside{
+    background-color: white !important;
+    overflow-x: hidden;
+}
+
+.toogle-sidebar{
+    color: #1D422F;
+}
+
+.user-panel{
+    border-bottom: 0px solid gray !important;
+    background-color: #1D422F;
+    padding: 20px 2% 2% 2%!important;
+}
+
+.username{
+    color: #4C9F78 !important;
+    font-weight: 600;
+}
+
+.no-link{
+    text-decoration: none !important;
+    color: white;
+}
+
+.nav-icon{
+    position: relative;
+    top: 3px !important;
+    max-width: 20px !important;
+    color: #1D422F !important;
+}
+
+.sidebar-items{
+    color: #1D422F !important;
+    font-weight: 600;
+}
+
+.nav-item{
+    background-color: transparent;
+}
+
+.nav-item:hover{
+    background-color: #4C9F78;
+    border-right: 2px solid #1D3A2F !important;
+    padding-right: 0px;
+}
+
+.logout-btn{
+    color: orange;
+}
+
+.logout-btn:hover{
+    color: red;
+}
+
+
+.content-wrapper{
+    padding: 1% !important;
+}
